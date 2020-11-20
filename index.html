@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Trashy Ocean</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Swanky+and+Moo+Moo&display=swap" rel="stylesheet"> 
+
+    <script type="text/javascript" src="libs/three.min.js"></script>
+    <script type="text/javascript" src="libs/OrbitControls.js"></script>
+    <script type="text/javascript" src="libs/OBJLoader.js"></script>
+
+    <script type="text/javascript" src="variables.js"></script>
+    <script type="text/javascript" src="objects.js"></script>
+    <script type="text/javascript" src="events.js"></script>
+    <script type="text/javascript" src="states.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+</head>
+
+<body>
+    <div class='header'>
+        <h1>Trashy Ocean</h1>
+        <div class='ui'>
+            <div class='uiScore' id="score">
+                <div class='scoreLabel'>SCORE</div>
+                <div class='scoreValue' id='scoreValue'>0</div>
+            </div>
+            <div class='uiLives' id="lives">
+                <div class='livesLabel'>LIVES</div>
+                <div class='livesValue' id='livesValue'>3</div>
+            </div>
+        </div>
+    </div>
+    <div class="world" id="world"></div>
+    <div class="replay" id="replay">Click to Replay</div>
+</body>
+
+</html>
